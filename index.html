@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal Gamer - Ztar Zack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>Ztar Zack</h2>
+  <ul>
+    <li onclick="mostrar('inicio')">Inicio</li>
+    <li onclick="mostrar('steam')">Steam</li>
+    <li onclick="mostrar('retro')">RetroAchievements</li>
+    <li onclick="mostrar('blizzard')">Blizzard</li>
+    <li onclick="mostrar('fangames')">Fan Games</li>
+    <li onclick="mostrar('smw')">SMW Central</li>
+  </ul>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="activo">
+  <h1>Mi canal</h1>
+  <p>Aquí pondrás info sobre tu canal de juegos.</p>
+</section>
+
+<!-- STEAM -->
+<section id="steam">
+  <h2>Steam</h2>
+
+  <div class="menu-letras">
+    <button onclick="filtrarSteam('A')">A</button>
+    <button onclick="filtrarSteam('B')">B</button>
+    <button onclick="filtrarSteam('ALL')">Todos</button>
+  </div>
+
+  <table id="tablaSteam">
+    <tr>
+      <th>ID</th><th>Nombre</th><th>Logros</th><th>Estado</th>
+      <th>Fecha</th><th>Archivo</th><th>Calificación</th><th>Fav</th>
+    </tr>
+  </table>
+</section>
+
+<!-- RETRO -->
+<section id="retro">
+  <h2>RetroAchievements</h2>
+
+  <div class="menu">
+    <button onclick="cargarRetro('NES')">NES</button>
+    <button onclick="cargarRetro('SNES')">SNES</button>
+    <button onclick="cargarRetro('GBA')">GBA</button>
+    <button onclick="cargarRetro('PS1')">PS1</button>
+    <button onclick="cargarRetro('PS2')">PS2</button>
+  </div>
+
+  <table id="tablaRetro"></table>
+</section>
+
+<!-- BLIZZARD -->
+<section id="blizzard">
+  <h2>Blizzard</h2>
+
+  <div class="menu">
+    <button onclick="cargarBlizzard('sc1')">Starcraft BW</button>
+    <button onclick="cargarBlizzard('sc2')">Starcraft 2</button>
+    <button onclick="cargarBlizzard('wc3')">Warcraft 3</button>
+  </div>
+
+  <div id="contenidoBlizzard"></div>
+</section>
+
+<!-- FANGAMES -->
+<section id="fangames">
+  <h2>Fan Games</h2>
+  <div class="menu">
+    <button onclick="cargarFan('rpg')">RPG</button>
+    <button onclick="cargarFan('accion')">Acción</button>
+  </div>
+
+  <ul id="listaFan"></ul>
+</section>
+
+<!-- SMW -->
+<section id="smw">
+  <h2>SMW Central</h2>
+
+  <table id="tablaSMW">
+    <tr>
+      <th>ID</th><th>Nombre</th><th>Salidas</th><th>Estado</th>
+      <th>Fecha</th><th>Archivo</th><th>Calificación</th><th>Fav</th>
+    </tr>
+  </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
