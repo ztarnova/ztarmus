@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Hack 1",
+    "salidas": 96,
+    "estado": "Completado",
+    "fecha": "2025",
+    "archivo": "zip",
+    "calificacion": 9,
+    "favorito": true
+  }
+]
