@@ -1,0 +1,18 @@
+{
+  "NES": [
+    {
+      "id": 1,
+      "nombre": "Mario Bros",
+      "logros": "100%",
+      "estado": "Completado"
+    }
+  ],
+  "PS2": [
+    {
+      "id": 2,
+      "nombre": "Rule of Rose",
+      "logros": "80%",
+      "estado": "Jugando"
+    }
+  ]
+}
