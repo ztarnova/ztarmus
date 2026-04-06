@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Among Us",
+    "logros": 100,
+    "estado": "Completado",
+    "fecha": "2025-01-01",
+    "archivo": "N/A",
+    "calificacion": 9,
+    "favorito": true
+  },
+  {
+    "id": 2,
+    "nombre": "Bioshock",
+    "logros": 50,
+    "estado": "Jugando",
+    "fecha": "2025-02-10",
+    "archivo": "N/A",
+    "calificacion": 8,
+    "favorito": false
+  }
+]
