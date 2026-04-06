@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+nav {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+section {
+  display: none;
+  padding: 20px;
+}
+
+.activo {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.menu button, .menu-letras button {
+  margin: 5px;
+}
